@@ -63,10 +63,6 @@ body {
 	font-weight: bold;
 }
 
-.galdesc {
-	font-family: 'Arial';
-}
-
 /* ------------------------SLIDESHOW ------------------------ */
 * {box-sizing:border-box}
 
@@ -156,7 +152,7 @@ body {
   to {opacity: 1}
 }
 /*  ------------------------ END SLIDESHOW  ------------------------ */
-
+/* gal btn */
 .button a {
 	display: inline-block;
 	text-decoration: none;
@@ -179,6 +175,48 @@ body {
   position: relative;
   color: #333333;
 }
+
+/* -------------------------------------------- contact us form ---------------------------------*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 40%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+.contactbutton input[type=submit] {
+	  background-color: #333333;
+	  color: #ff4d4d;
+	  font-weight: bold;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.contactbutton input[type=submit]:hover {
+	  background-color: #ff4d4d;
+	  color: #333333;
+	}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #ffcccc;
+  padding: 20px;
+}
+
+textarea {
+	resize: none;
+}
+/* -------------------------------------------- contact us form ---------------------------------*/
 
 /*  ------------------------ CODE FOR SMALLER DEVICES  ------------------------ */
 @media screen and (max-width: 600px) {
