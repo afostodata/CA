@@ -70,11 +70,13 @@ body {
   max-width: 800px;
   position: relative;
   margin: auto;
+  margin-top: 5%;
 }
+
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: none; 
   image-resolution: from-image 300dpi;
 }
 
@@ -125,7 +127,7 @@ body {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* The dots */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -152,6 +154,41 @@ body {
   to {opacity: 1}
 }
 /*  ------------------------ END SLIDESHOW  ------------------------ */
+
+.ContainerLeft {
+	position: absolute;
+	left: 1%;
+	top: 21%;
+	margin: 0.5em;
+	width: 28%;
+	border: solid 1px silver;
+	height: 69.5%;
+	background: #ffb3b3;
+	text-align: left;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	font-size: mall;
+	color: black;
+}
+
+.ContainerRight {
+	position: absolute;
+	left: 70.5%;
+	top: 21%;
+	margin:0.5em;
+	width: 28%;
+	border: solid 1px silver;
+	height: 69.5%;
+	background: #ffb3b3;
+	text-align: left;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	font-size: small;
+	color: black;
+}
+
+
+
 /* gal btn */
 .button a {
 	display: inline-block;
@@ -166,20 +203,20 @@ body {
 	margin: 1px;
 }
 
-.button p {
+.button a {
 	font-size: 18px;
 }
 
 .button a:hover {
   display: inline-block;
   position: relative;
-  color: #333333;
+  color: #4da6ff;
 }
 
 /* -------------------------------------------- contact us form ---------------------------------*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 40%; /* Full width */
+  width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -217,6 +254,7 @@ textarea {
 	resize: none;
 }
 /* -------------------------------------------- contact us form ---------------------------------*/
+
 
 /*  ------------------------ CODE FOR SMALLER DEVICES  ------------------------ */
 @media screen and (max-width: 600px) {
